@@ -25,8 +25,8 @@ def get_birthdays_per_week(users):
 
 
 
-
-user = {"Bill": datetime.date(year = 1999, month = 3, day=12),
-       "Steve":datetime.date(year = 2002, month = 3, day=18),
-       'Victor':datetime.date(year = 1987, month = 3, day=15)}
-get_birthdays_per_week(user)
+if __name__=='__main__':
+    user = {"Bill": datetime.date(year = 1999, month = 3, day=12),
+           "Steve":datetime.date(year = 2002, month = 3, day=18),
+           'Victor':datetime.date(year = 1987, month = 3, day=15)}
+    get_birthdays_per_week(user)
